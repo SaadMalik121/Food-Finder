@@ -1,0 +1,68 @@
+.add_container {
+    width: 70%;
+    margin: auto;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.meal {
+    color: rgb(245, 86, 86);
+}
+
+.add-form {
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+input:focus {
+    border: 2px solid rgb(239, 92, 92);
+    box-shadow: 0px 0px 8px rgba(239, 92, 92, 0.447);
+}
+
+label {
+    font-size: 15px;
+    color: rgb(149, 148, 148);
+}
+
+.form-control {
+    margin-top: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 5px;
+    outline: none;
+}
+
+select:focus {
+    border: 2px solid rgba(240, 103, 103, 0.842);
+    box-shadow: 0px 0px 8px rgba(234, 85, 85, 0.842);
+}
+
+.add-btn {
+    padding: 15px 20px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgba(234, 85, 85, 0.842);
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+}
+
+.add-btn:hover {
+    box-shadow: 0px 0px 8px rgba(234, 85, 85, 0.842);
+    background-color: rgb(175, 51, 51);
+
+}
